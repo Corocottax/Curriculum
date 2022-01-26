@@ -1,0 +1,38 @@
+.Menu {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+button {
+
+    background-color: transparent;
+    border: none;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button:hover {
+
+    cursor: pointer;
+
+}
+
+p {
+
+    width: 100px;
+
+}
+
+svg {
+
+    width: 50px;
+
+}
