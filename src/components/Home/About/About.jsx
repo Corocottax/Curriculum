@@ -11,9 +11,9 @@ export const About = ({info}) => {
   
         <h3>Sobre Mi</h3>
 
-        {sobreMi.map((infoSobreMi) => 
+        {sobreMi.map((infoSobreMi, index) => 
             
-            <p>{infoSobreMi.info}</p>
+            <p key={index}>{infoSobreMi.info}</p>
 
         )}
     

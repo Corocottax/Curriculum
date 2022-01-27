@@ -5,9 +5,9 @@ export const Experience = ({ experiencia }) => {
   
   <div>
 
-    {experiencia.map((experiencia) => 
+    {experiencia.map((experiencia, index) => 
             
-        <div>
+        <div key={index}>
             <h3>{experiencia.nombre}</h3>
             <p>{experiencia.fecha}</p>
             <p>{experiencia.lugar}</p>

@@ -9,9 +9,9 @@ export const More = ({ idiomas, habilidades }) => {
 
         <h3>Idiomas</h3>
 
-        {idiomas.map((idioma) =>
+        {idiomas.map((idioma, index) =>
 
-            <div>
+            <div key={index}>
 
                 <p className='idioma'>{idioma.idioma}</p>
                 <p>{idioma.nivel}</p>

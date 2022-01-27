@@ -5,9 +5,9 @@ export const Education = ({ educacion }) => {
   return (
     <div>
 
-        {educacion.map((educacion) => 
+        {educacion.map((educacion, index) => 
             
-            <div>
+            <div key={index}>
                 <h3>{educacion.nombre}</h3>
                 <p>{educacion.fecha}</p>
                 <p>{educacion.lugar}</p>
